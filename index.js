@@ -3,8 +3,8 @@
 const http = require("http");
 const path = require("path");
 const fs = require("fs");
-//create server
 
+//create server that returns name when url/home is opened
 const server = http.createServer((req, res) => {
   if (req.url === "/home") {
     fs.readFile("./hello.txt", (err, data) => {
