@@ -1,5 +1,4 @@
 //creating a simple server in nodejs
-
 const http = require("http");
 const path = require("path");
 const fs = require("fs");
